@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const avatar = 'assets/imagen 1.png';
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
               // mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const CircleAvatar(
-                  backgroundImage: AssetImage("assets/imagen 1.png"),
+                  backgroundImage: AssetImage(avatar),
                   radius: 80,
                 ),
                 const SizedBox(height: 24),
